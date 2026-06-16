@@ -33,6 +33,7 @@ if __name__ == "__main__":
 
     voting_system.generate_candidates(5)
     voting_system.generate_voters(100)
+    voting_system.generate_candidates(6)
 
     print("Candidates:")
     for candidate in voting_system.candidates:
